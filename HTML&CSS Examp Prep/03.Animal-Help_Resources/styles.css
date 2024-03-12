@@ -1,0 +1,276 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* MAIN */
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 180px;
+}
+
+.navbar h1{
+    font-size: 36px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.difference{
+    background-color: #85dcff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px;
+
+}
+
+.difference img{
+    width: 800px;
+}
+
+.content{
+    display: block;
+    margin: auto 0;
+    max-width: 1000px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    font-size: 26px;
+    margin: 40px 0px;
+}
+
+.content button{
+    padding: 20px 130px;
+    border-radius: 12px;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.content .join{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+}
+
+/* MIDDLE */
+.middle .one h1, h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.middle .one h1{
+    font-size: 40px;
+}
+
+.middle .one h2{
+    font-size: 30px;
+    font-style: unset;
+}
+
+.icon{
+    color: #85dcff;
+    font-size: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 50px;
+}
+
+.options .opts h1{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.opts{
+    max-width: 600px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.opts div{
+    margin-bottom: 20px;
+}
+
+.two{
+    background-color: #85dcff;
+    display: block;
+    overflow: auto;
+}
+
+.two h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.two .uls .one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 500px;
+    font-size: 36px;
+}
+
+.two .uls .one{
+    list-style: none;
+}
+
+
+.two button{
+    background-color: black;
+    color: white;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:block;
+    font-size: 24px;
+    padding: 20px 120px;
+    border-radius: 12px;
+    border: 0px;
+}
+
+/* FOOTER */
+/* .animals{
+
+} */
+
+.animals h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.animals h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.animals .photos{
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+}
+
+.animals h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.suggestions{
+    display: block;
+    width: 1700px;
+    margin: auto;
+    border: solid 1px lightgray;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+footer .suggestions h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #85dcff;
+    font-size: 30px;
+    text-align: start;
+    padding: 20px 0px 20px 40px;
+}
+
+footer .suggestions p{
+    font-size: 26px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+footer .threesugg{
+    margin-bottom: 100px;
+}
+
+.ending{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ending img{
+    width: 1200px;
+}
+
+.news{
+    /* margin-right: 300px; */
+    margin: auto;
+    max-width: 900px;
+}
+
+.news h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.news p{
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.news input{
+    font-size: 26px;
+    border-radius: 6px;
+    padding: 15px 30px;
+    border: solid 1px lightgray;
+    margin-bottom: 40px;
+}
+
+.news button{
+    display: block;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 20px 100px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.copyright .icons{
+    list-style: none;
+    display: flex;
+}
+
+.copyright .icons li{
+    margin-right: 20px;
+}
+
+.copyright .icons li a{
+    color: black;
+    text-decoration: none;
+}

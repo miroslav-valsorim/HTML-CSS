@@ -1,0 +1,93 @@
+@media (max-width: 600px){
+    .tm-site-logo{
+        width: 60px;
+    }
+
+    .tm-site-title{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .tm-site-description{
+        font-size: 0.8rem;
+    }
+
+    .tm-nav{
+        font-size: 0.8rem;
+    }
+
+    .tm-nav-ul{
+        justify-content: center;
+    }
+
+    .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .tm-header-inner{
+        display: block;
+        text-align: center;
+        padding: 30px 50px;
+    }
+
+    .tm-welcome-section{
+        width: 100%;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .tm-welcome-section h2{
+        max-width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tm-section-title{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    section.tm-paging-links > nav > ul > li:nth-child(2){
+        background-color: transparent;
+    }
+
+    .tm-gallery{
+        display: flex;
+    }
+
+    .tm-gallery-page{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tm-gallery-title{
+        text-align: center;
+    }
+
+    .tm-gallery-price{
+        font-size: 1.35rem;
+        margin-bottom: 40px;
+    }
+
+    .tm-cta-section{
+        max-width: 360px;
+    }
+
+    .tm-description-figure{
+        max-width: 360px;
+        width: auto;
+    }
+
+    .tm-gallery-title{
+        text-align: left;
+    }
+
+    .tm-container-inner{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
